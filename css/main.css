@@ -24,7 +24,7 @@ body {
 	text-align: center;
 }
 .content {
-	margin-right:725px;
+	margin-right:800px;
 	display: block;
 	float: right;
 }
@@ -39,10 +39,10 @@ body {
 }
 .content-2 {
 	width:50px;
-	z-index: 2;
-	margin-left: 750px;
+	margin-left: 775px;
 	height:300px;
 	float: left;
+	display: block;
 }
 .content-2 li {
 	margin-bottom: 10px;
