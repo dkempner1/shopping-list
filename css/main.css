@@ -24,9 +24,9 @@ body {
 	text-align: center;
 }
 .content {
-	margin-right:800px;
+	margin: 0 auto;
 	display: block;
-	float: right;
+	border: 2px solid black;
 }
 
 .content ul{
@@ -35,23 +35,66 @@ body {
 	width: 250px;
 	margin: 0 auto;
 	padding: 0;
-
-}
-.content-2 {
-	width:50px;
-	margin-left: 775px;
-	height:300px;
-	float: left;
-	display: block;
-}
-.content-2 li {
-	margin-bottom: 10px;
 }
 
 
+ul #new-item:before {
+	content: url('../images/plus-sign.png');
+	height: 30px;
+ 	width: 30px;
+ 	position: absolute;
+    top: 360px;
+    right: 730px;
+}
+
+ul #item-1:before {
+	content: url('../images/red-x.png');
+	height: 30px;
+ 	width: 30px;
+ 	position: absolute;
+    top: 413px;
+    right: 730px;
+}
+
+ul #item-2:before {
+	content: url('../images/red-x.png');
+	height: 30px;
+ 	width: 30px;
+ 	position: absolute;
+    top: 466px;
+    right: 730px;
+}
+
+ul #item-3:before {
+	content: url('../images/red-x.png');
+	height: 30px;
+ 	width: 30px;
+ 	position: absolute;
+    top: 517px;
+    right: 730px;
+}
+
+ul #item-4:before {
+	content: url('../images/red-x.png');
+	height: 30px;
+ 	width: 30px;
+ 	position: absolute;
+    top: 569px;
+    right: 730px;
+}
+
+ul #item-5:before {
+	content: url('../images/red-x.png');
+	height: 30px;
+ 	width: 30px;
+ 	position: absolute;
+    top: 621px;
+    right: 730px;
+}
 
 .content #items li {
 	padding: 5px 0px;
+	border: 1px solid black;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size: 1.5em;
 	color: #333333;
@@ -85,13 +128,13 @@ h1 {
 	margin-top: 10px;
 }
 
-#registered-item-1, #registered-item-2, #registered-item-3 {
-	background-color: #6e6e6e;
+#item-1, #item-2, #item-3 {
+	background-color: #999999;
 	color:#B0B0B0;
 }
 
-#registered-item-4, #registered-item-5 {
-	background-color: #6e6e6e;
+#item-4, #item-5 {
+	background-color: #999999;
 	color:#B0B0B0;
 	text-decoration: line-through;
 }
