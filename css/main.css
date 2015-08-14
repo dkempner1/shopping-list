@@ -1,9 +1,4 @@
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+s
 
 body {
 	background-color: #EBEBEB;
@@ -63,7 +58,7 @@ body {
 	color: #333333;
 	border-radius: 25px;
 	height: 40px;
-	margin-bottom: 10px;
+	margin: 10px 0px;
 	-webkit-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.75);
 	box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.75);
@@ -74,8 +69,8 @@ body {
 	height: 30px;
  	width: 30px;
  	float: left;
-  margin-left: 8px;
-  margin-top: -2px;
+  	margin-left: 8px;
+  	margin-top: -2px;
 }
 
 .shoppinglist li.add:before {
@@ -100,20 +95,24 @@ h1 {
 	text-align: center;
 	padding-top: 5px;
 }
- #new-item {
+ .new-item {
 	background-color: #ffffff;
 	margin-top: 10px;
 }
 
-#item-1, #item-2, #item-3 {
+
+ul .item-1, .item-2, .item-3  {
 	background-color: #999999;
 	color:#B0B0B0;
 }
 
-#item-4, #item-5 {
+ul .item-4, .item-5  {
 	background-color: #999999;
-	color:#B0B0B0;
 	text-decoration: line-through;
+}
+
+ul li span {
+    margin-right: 15px;
 }
 
 
