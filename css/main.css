@@ -1,0 +1,89 @@
+body {
+	background-color: #EBEBEB;
+	margin: 0 auto;
+}
+
+.container {
+	margin: 0 auto;
+	display: block;
+}
+
+
+#header-img {
+	background-image: url('../images/shop-list.png');
+	height: 200px;
+	width: 200px;
+	background-repeat: no-repeat;	
+	background-color: #ffdb88;
+	margin-bottom: 5px;
+	margin: 0 auto;
+}
+.header {
+	background-color: #ffdb88;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.content {
+	margin: 0 auto;
+	display: block;
+}
+
+.content ul{
+	display: block;
+	text-align: center;
+	width: 250px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+
+.content #items li {
+	padding: 5px 0px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.5em;
+	color: #333333;
+	border-radius: 25px;
+	height: 30px;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.75);
+	box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.75);
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+h1 {
+	color: #4C4C4D;
+	font-family: 'Abel', sans-serif;
+	font-weight: bolder;
+	font-size: 3em
+}
+.reset-button {
+	margin: 0 auto;
+	display: block;
+	border: 1px solid orange;
+	text-align: center;
+	padding-top: 5px;
+}
+ #new-item {
+	background-color: #ffffff;
+	margin-top: 10px;
+}
+
+#registered-item-1, #registered-item-2, #registered-item-3 {
+	background-color: #6e6e6e;
+	color:#B0B0B0;
+}
+
+#registered-item-4, #registered-item-5 {
+	background-color: #6e6e6e;
+	color:#B0B0B0;
+	text-decoration: line-through;
+}
+
+
+
