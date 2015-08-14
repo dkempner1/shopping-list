@@ -1,4 +1,9 @@
-s
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
 	background-color: #EBEBEB;
@@ -20,11 +25,14 @@ body {
 	margin-bottom: 5px;
 	margin: 0 auto;
 }
+
 .header {
 	background-color: #ffdb88;
 	padding-bottom: 20px;
 	text-align: center;
+	margin: 0 auto;
 }
+
 .content {
 	margin: 0 auto;
 	display: block;
