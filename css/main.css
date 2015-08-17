@@ -22,7 +22,6 @@ body {
 	width: 200px;
 	background-repeat: no-repeat;
 	background-color: #ffdb88;
-	margin-bottom: 5px;
 	margin: 0 auto;
 }
 
@@ -95,6 +94,12 @@ h1 {
 	font-family: 'Abel', sans-serif;
 	font-weight: bolder;
 	font-size: 3em
+}
+p {
+	color: #4C4C4D;
+	font-family: 'Abel', sans-serif;
+	font-weight: bolder;
+	font-size: 1em;
 }
 .reset-button {
 	margin: 0 auto;
