@@ -107,7 +107,7 @@ p {
 	text-align: center;
 	padding-top: 5px;
 }
- .new-item {
+ #new-item {
 	background-color: #ffffff;
 	margin-top: 10px;
 }
@@ -125,6 +125,11 @@ ul .item-4, .item-5  {
 
 ul li span {
     margin-right: 15px;
+}
+#new {
+	font-family: 'Abel', sans-serif;
+	border: 0px solid #fff;
+	text-align: center;
 }
 
 
